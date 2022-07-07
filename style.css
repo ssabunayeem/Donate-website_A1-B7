@@ -2,6 +2,8 @@ body {
     font-family: 'Roboto', sans-serif;
     font-size: 2rem;
     margin: 0;
+
+
 }
 
 .top_banner {
@@ -32,12 +34,19 @@ body {
 
 .text-centarization {
     text-align: center;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
 }
+
+
 
 #taka {
     display: flex;
-    margin-left: 500px;
     color: gray;
+    padding-left: 350px;
 
 }
 
@@ -47,17 +56,17 @@ h2 {
 
 h3 {
     text-align: center;
-    padding: 30px 40px;
+    padding: 70px 50px;
 }
-h5{
-    font-weight:lighter;
-     ;
+
+h5 {
+    font-weight: lighter;
+    ;
 }
 
 p {
-    
+
     color: gray;
-    padding: 0px 400px;
 
 }
 
@@ -74,6 +83,40 @@ p {
     background-color: #f54d4d;
     padding: 20px 30px;
     border-radius: 10px;
-    color: white;
-    font-weight: 500;
+    color: rgb(238, 227, 227);
+    font-weight: 600;
+}
+
+input {
+
+    width: 70%;
+    height: 100px;
+    text-align: center;
+    font-size: 25px;
+    color: rgb(158, 17, 17);
+    border: 0;
+    border-bottom: 2px solid rgb(187, 176, 176);
+    font-weight: lighter;
+    margin-bottom: 100px;
+
+
+}
+
+
+.flexible-container {
+    display: flex;
+
+}
+
+
+
+
+.container-item {
+    padding: 50px;
+    margin: 50px;
+}
+
+.container-item3 {
+    background-color: rgba(255, 228, 196, 0.692);
+
 }
