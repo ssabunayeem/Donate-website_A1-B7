@@ -108,6 +108,25 @@ input {
 
 }
 
+#Support-Team {
+    color:white;
+    background-image: url(images/helping-hands_edited.jpg);
+    background-position: center;
+    height: 600px;
+    padding: 100px;
+}
+.Support-Team p{
+    color: white;
+}
+.Support-Team {
+    
+    background-repeat: no-repeat;
+    width: 100%;
+    padding: 10px;
+    
+
+}
+
 #mail {
 
     width: 30%;
