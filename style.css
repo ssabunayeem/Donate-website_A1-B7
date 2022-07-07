@@ -1,10 +1,11 @@
 body {
     font-family: 'Roboto', sans-serif;
     font-size: 2rem;
+    margin: 0;
 }
 
 .top_banner {
-    color:aliceblue;
+    color: aliceblue;
     text-align: center;
     background-image: url(images/bbbbbb_edited.jpg);
 
@@ -16,11 +17,12 @@ body {
 
 .top_banner p {
     text-shadow: 1px 1px 4px black;
-    height: 140px;
 }
 
 #top-banner-items {
     margin: 100px;
+    height: 500px;
+
 }
 
 .first-title {
@@ -28,9 +30,48 @@ body {
     font-weight: 700;
 }
 
+.text-centarization {
+    text-align: center;
+}
+
+#taka {
+    display: flex;
+    margin-left: 500px;
+    color: gray;
+
+}
+
+h2 {
+    font-size: 60px;
+}
+
+h3 {
+    text-align: center;
+    padding: 30px 40px;
+}
+h5{
+    font-weight:lighter;
+     ;
+}
+
+p {
+    
+    color: gray;
+    padding: 0px 400px;
+
+}
+
+
+#select-tk {
+    color: #f54d4d;
+    border: 3px solid #f54d4d;
+    border-radius: 5%;
+}
+
+
 .link_button {
     text-decoration: none;
-    background-color: hsl(0, 89%, 63%);
+    background-color: #f54d4d;
     padding: 20px 30px;
     border-radius: 10px;
     color: white;
