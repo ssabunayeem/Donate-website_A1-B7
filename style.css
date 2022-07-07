@@ -59,6 +59,12 @@ h3 {
     padding: 70px 50px;
 }
 
+h4 {
+    color: #f54d4d;
+    font-size: larger;
+    padding-top: 80px;
+}
+
 h5 {
     font-weight: lighter;
     ;
@@ -102,6 +108,16 @@ input {
 
 }
 
+#mail {
+
+    width: 30%;
+    height: 60px;
+    text-align: left;
+    background-color: rgb(219, 209, 209);
+    border: 2px gray;
+    border-radius: 5px;
+
+}
 
 .flexible-container {
     display: flex;
@@ -109,7 +125,15 @@ input {
 }
 
 
-
+#Subscribe {
+    border-top: 10px;
+    border-bottom: 10px;
+    border-left: 20px;
+    border-right: 20px;
+    background-color: lemonchiffon;
+    ;
+    padding-top: 85px;
+}
 
 .container-item {
     padding: 50px;
@@ -121,16 +145,23 @@ input {
 
 }
 
+button {
+    padding: 20px 40px;
+    border-radius: 5px;
+    border: 0;
+    font-size: large;
+    color: white;
+    background-color: #f54d4d;
+
+
+}
+
 small {
     color: white;
     font-size: medium;
 }
 
-h4 {
-    color: #f54d4d;
-    font-size: larger;
-    padding-top: 80px;
-}
+
 
 footer {
     background-color: black;
