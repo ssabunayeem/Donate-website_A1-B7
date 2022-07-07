@@ -1,0 +1,38 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 2rem;
+}
+
+.top_banner {
+    color:aliceblue;
+    text-align: center;
+    background-image: url(images/bbbbbb_edited.jpg);
+
+    /*I  did not find any big free images , that's why I use repetition*/
+
+    padding: 5%;
+
+}
+
+.top_banner p {
+    text-shadow: 1px 1px 4px black;
+    height: 140px;
+}
+
+#top-banner-items {
+    margin: 100px;
+}
+
+.first-title {
+    font-size: 85px;
+    font-weight: 700;
+}
+
+.link_button {
+    text-decoration: none;
+    background-color: hsl(0, 89%, 63%);
+    padding: 20px 30px;
+    border-radius: 10px;
+    color: white;
+    font-weight: 500;
+}
